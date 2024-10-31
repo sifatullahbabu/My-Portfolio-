@@ -1,0 +1,245 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.links{
+  margin: 20px 0px;
+}
+.logoimage{
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+}
+.nav-link:hover{
+  color: green;
+
+}
+.nav-item a{
+  color: white;
+}
+.nav-item a:hover{
+  color:rgb(231, 36, 94);
+}
+
+
+main{
+  background-color: rgb(136, 176, 189);
+}
+
+
+.container1st{
+  background-image: url(bg1.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container1st p{
+  color: rgb(251, 254, 255);
+  font-size: larger;
+
+}
+b{
+  font-size: xx-large;
+  color: red;
+}
+.my_image img{
+  margin: 90px 100px 100px 0px;
+  width:30em;
+  height: 30em;
+  
+}
+
+.hi{
+  color: red;
+  font-size:90px;
+  font-weight: bolder;
+}
+.name{
+  font-size: 60px;
+}
+h2{
+  font-size: 45px;
+}
+.Resume_button{
+  display: flex;
+  color:blue;
+  margin: 50px 0px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: large;
+  border: 2px solid blue;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.Resume_button:hover{
+  color: rgb(243, 84, 195);
+  background-color: blue;
+}
+.heading1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.heading1 h2{
+  width: 400px;
+  height: 100px;
+  background-color: rgb(225, 228, 233);
+  margin: 50px;
+  color:rgb(39, 36, 36);
+  border-radius: 20px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  border: 4px solid rgb(197, 191, 191);
+  box-shadow: 3px 3px 3px 3px;
+}
+#skill{
+  background-color: rgb(133, 74, 187);
+}
+.skills{
+  margin: 0px 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:40px;
+ 
+  
+}
+.gridbox{
+  width: 100%;
+  height: 150px;
+  background-color:rgb(43, 56, 65);
+  border: 5px solid rgb(34, 35, 36);
+  border-radius: 20px;
+  box-shadow: 2px rgb(94, 91, 91);
+  margin: 20px 0px;
+}
+#html_part{
+display:grid;
+grid-template-columns: 1fr 1fr;
+gap: 10px;  
+}
+#logo1{
+  background-image: url(html_logo.jpg);
+  background-size:cover;
+  border-radius: 20px 0px 0px 20px;
+  background-repeat: no-repeat;
+}
+#pera1{
+  padding: 10px;
+  
+}
+#css_part{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;  
+}
+
+#logo2{
+  background-image: url(css_logo.png);
+  background-size:cover;
+  border-radius: 20px 0px 0px 20px;
+  background-repeat: no-repeat;
+}
+#pera2{
+  padding: 9px; 
+}
+#javascript_part{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;  
+}
+
+#logo3{
+  background-image: url(JavaScript-logo3.png);
+  background-size:cover;
+  border-radius: 20px 0px 0px 20px;
+  background-repeat: no-repeat;
+}
+#pera3{
+  padding: 10px; 
+}
+#reactjs_part{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;  
+}
+
+#logo4{
+  background-image: url(react.jpg);
+  background-size:contain;
+  border-radius: 20px 0px 0px 20px;
+  background-repeat: no-repeat;
+}
+#pera4{
+  padding: 10px; 
+}
+#notejs_part{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;  
+}
+
+#logo5{
+  background-image: url(notejslogo.jpg);
+  background-size:contain;
+  border-radius: 20px 0px 0px 20px;
+  background-repeat: no-repeat;
+}
+#pera5{
+  padding: 10px; 
+}
+#MongoDB_part{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;  
+}
+
+#logo6{
+  background-image: url(mongobd.jpg);
+  background-size:cover;
+  border-radius: 20px 0px 0px 20px;
+  background-repeat: no-repeat;
+}
+#pera6{
+  padding: 10px; 
+}
+
+.education h2{
+  text-align: center;
+  color: rgb(238, 45, 125);
+  width: 100%;
+  height: 200px;
+  background-color: darkslategrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#heading2{
+  text-decoration:underline double;
+  text-transform: uppercase;
+ letter-spacing: 3px;
+}
+
+@media screen and (max-width: 700px) {
+ 
+  main{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .container1st{
+    display: flex;
+    flex-direction: column;
+  }
+  .my_image img{
+    width: 25em;
+    height: 25em;
+    margin: 50px;
+  }
+}
