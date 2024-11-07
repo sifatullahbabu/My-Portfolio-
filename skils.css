@@ -1,26 +1,30 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .links{
-    margin: 20px 0px;
-  }
-  .logoimage{
-    width: 100px;
-    height: 50px;
-    border-radius: 30px;
-  }
-  .nav-link:hover{
-    color: green;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.links{
+  margin: 20px 0px;
+}
+.logoimage{
+  width: 150px;
+  height: auto;
+  border-radius: 30px;
+}
+
+.nav-link:hover{
+  color: green;
   
-  }
-  .nav-item a{
-    color: white;
-  }
-  .nav-item a:hover{
-    color:rgb(231, 36, 94);
-  }
+
+}
+.nav-item a{
+  color: white;
+  font-size: larger;
+}
+.nav-item a:hover{
+  color:rgb(231, 36, 94);
+}
+
   
 .heading1{
     display: flex;
@@ -31,8 +35,8 @@
 .heading1 h2{
     width: 400px;
     height: 100px;
-    font-size:30px;
-    background-color: rgb(71, 85, 110);
+    font-size:50px;
+    background-color: rgb(255, 255, 255);
     margin-top:50px;
     color:rgb(0, 0, 0);
     border-radius: 20px;
@@ -42,7 +46,7 @@
     box-shadow: 3px 3px 3px 3px;
 }
 #skill{
-    background-color: rgb(133, 74, 187);
+    background-color: #ffffff;
 }
 .skills{
     margin: 0px 30px;
@@ -62,7 +66,7 @@
     box-shadow: 2px rgb(94, 91, 91);
     margin: 20px 0px;
     color: rgb(253, 253, 253);
-    font-size: large;
+    font-size: x-large;
 }
 #html_part{
   display:grid;

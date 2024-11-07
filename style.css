@@ -7,24 +7,27 @@
   margin: 20px 0px;
 }
 .logoimage{
-  width: 100px;
-  height: 50px;
+  width: 150px;
+  height: auto;
   border-radius: 30px;
 }
+
 .nav-link:hover{
   color: green;
+  
 
 }
 .nav-item a{
   color: white;
+  font-size: larger;
 }
 .nav-item a:hover{
   color:rgb(231, 36, 94);
 }
 
 
-main{
-  background-color: rgb(136, 176, 189);
+body{
+  background: color #ffffff;
 }
 
 
